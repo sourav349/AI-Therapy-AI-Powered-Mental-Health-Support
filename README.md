@@ -73,3 +73,15 @@ It provides **real-time mood tracking**, **crisis detection**, and **interactive
 git clone https://github.com/yourusername/ai-therapy.git
 cd ai-therapy
 npm install
+
+2️⃣ Configure Environment
+cp .env.example .env
+# Add your environment variables:
+# GEMINI_API_KEY=
+# ECHO_API_KEY=
+# MONGODB_URI=
+# NEXTAUTH_SECRET=
+
+3️⃣ Start Development Server
+npm run dev
+
